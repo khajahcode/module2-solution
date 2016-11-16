@@ -1,3 +1,201 @@
+/********** Base styles **********/
 * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 
 }
+
+
+p {
+  
+ 
+  width: 90%;
+  height: 120px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Helvetica;
+  margin-top: 60px;
+
+
+}
+
+/* Simple Responsive Framework. */
+.row {
+
+
+  /*width: 100%;*/
+
+
+ 
+}
+
+
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+   .col-lg-4 {
+    
+    float: left; 
+   /*border: 1px solid black;*/
+    width: 33.33%;
+ 
+
+  }
+
+
+
+h2 {
+
+  position: absolute;
+
+  top: 0px;
+  left: 215px;
+  bottom: 145px;
+  right: 0px;
+
+
+}
+
+ 
+
+
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+ 
+ .col-md-6 {
+     /*border: 1px solid black;*/
+    float: left;
+    width: 50%;
+
+   
+   }
+
+   #sec3 {
+  /* border: 1px solid black;*/
+  text-align: center;
+  width: 100%;
+
+
+  }
+
+
+ h2 {
+
+  position: absolute;
+  top: 0px;
+  left: 250px;
+  bottom: 145px;
+  right: 0px;
+
+
+}
+
+#sec13 {
+
+/*width: 150px;*/
+ position: absolute;
+  top: 0px;
+  left: 590px;
+  bottom: 145px;
+  right: 0px;
+
+}
+
+
+
+
+
+}
+
+/* use text-align to set your text in the center and it will remain in the center even if you 
+ change the page size.
+  */
+
+
+@media (max-width: 767px) {
+
+ h2 {
+
+  position: absolute;
+  top: 0px;
+  left: 300px;
+  bottom: 145px;
+  right: 0px;
+
+
+   }
+
+}
+
+
+
+
+
+#head {
+ 
+  margin-top: 20px;
+  margin-bottom: 50px; 
+  text-align:  center;
+
+}
+
+#sec1 {
+
+   text-align: center;
+
+
+}
+
+
+#sec2 {
+  
+  text-align: center;
+
+}
+
+#sec11 {
+
+ background-color: blue;
+ color: white;
+ text-align: center;
+ 
+}
+
+
+#sec12 {
+
+   background-color: red;
+    color: white;
+    text-align: center;
+  
+}
+
+
+#sec13 {
+
+
+ text-align: center;
+ background-color: green;
+ color: white;
+
+}
+
+
+.section {
+
+border: 1px solid black;
+ margin: 5px;
+ position: relative;
+ 
+ }
+
+
+
+
+
+
+
